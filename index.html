@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKM Business House - Digital Marketing & Design Services</title>
+    <!-- Add Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<!-- Rest of the code remains exactly the same -->
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-blue-600">KKM Business House</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#home" class="hover:text-blue-600 transition-colors">Home</a>
+                    <a href="#services" class="hover:text-blue-600 transition-colors">Services</a>
+                    <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+                </div>
+                <button id="mobileMenuBtn" class="md:hidden">
+                    <div class="w-6 h-1 bg-gray-800 mb-1"></div>
+                    <div class="w-6 h-1 bg-gray-800 mb-1"></div>
+                    <div class="w-6 h-1 bg-gray-800"></div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden fixed w-full bg-white shadow-md z-40 top-16">
+        <div class="container mx-auto px-4 py-3">
+            <a href="#home" class="block py-2 hover:text-blue-600 transition-colors">Home</a>
+            <a href="#services" class="block py-2 hover:text-blue-600 transition-colors">Services</a>
+            <a href="#contact" class="block py-2 hover:text-blue-600 transition-colors">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12 bg-gradient-to-r from-blue-500 to-purple-600">
+        <div class="container mx-auto px-4 py-16">
+            <div class="text-center text-white">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6" data-aos="fade-up">Transform Your Digital Presence</h1>
+                <p class="text-xl mb-8" data-aos="fade-up" data-aos-delay="200">Expert Digital Marketing & Design Services</p>
+                <p class="text-lg mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="300">
+                    Elevate your brand with our professional Facebook management, stunning designs, and strategic marketing solutions.
+                </p>
+                <div class="space-x-4">
+                    <a href="#services" class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors inline-block" data-aos="fade-up" data-aos-delay="400">Our Services</a>
+                    <a href="#contact" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-block" data-aos="fade-up" data-aos-delay="500">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Facebook Post Design -->
+                <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up">
+                    <div class="h-2 bg-blue-600 rounded-full mb-4"></div>
+                    <h3 class="text-xl font-semibold mb-4">Facebook Post Design</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• Custom graphic designs</li>
+                        <li>• Engaging visual content</li>
+                        <li>• Brand-consistent aesthetics</li>
+                        <li>• Quick turnaround time</li>
+                    </ul>
+                </div>
+                
+                <!-- Facebook Page Management -->
+                <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-2 bg-purple-600 rounded-full mb-4"></div>
+                    <h3 class="text-xl font-semibold mb-4">Facebook Page Management</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• Content scheduling</li>
+                        <li>• Audience engagement</li>
+                        <li>• Community management</li>
+                        <li>• Performance analytics</li>
+                    </ul>
+                </div>
+
+                <!-- Logo Design -->
+                <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-2 bg-green-600 rounded-full mb-4"></div>
+                    <h3 class="text-xl font-semibold mb-4">Logo Design</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• Custom brand identity</li>
+                        <li>• Multiple concepts</li>
+                        <li>• Vector files included</li>
+                        <li>• Unlimited revisions</li>
+                    </ul>
+                </div>
+
+                <!-- Cartoon Animation -->
+                <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up">
+                    <div class="h-2 bg-yellow-600 rounded-full mb-4"></div>
+                    <h3 class="text-xl font-semibold mb-4">Cartoon Animation</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• 2D animations</li>
+                        <li>• Character design</li>
+                        <li>• Storyboard creation</li>
+                        <li>• Professional voiceover</li>
+                    </ul>
+                </div>
+
+                <!-- Facebook Ads -->
+                <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-2 bg-red-600 rounded-full mb-4"></div>
+                    <h3 class="text-xl font-semibold mb-4">Facebook Ads</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>• Campaign strategy</li>
+                        <li>• Audience targeting</li>
+                        <li>• Ad optimization</li>
+                        <li>• Performance tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="max-w-lg mx-auto bg-white rounded-lg shadow-lg p-8">
+                <div class="text-center mb-8">
+                    <div class="text-2xl font-bold text-blue-600 mb-2">Get In Touch</div>
+                    <div class="text-gray-600">Phone: 072 5080 893</div>
+                </div>
+                <form id="contactForm" class="space-y-4">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="text-2xl font-bold mb-4">KKM Business House</div>
+            <p class="mb-4">Your Trusted Digital Marketing Partner</p>
+            <p>&copy; 2024 KKM Business House. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Contact form handling
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            contactForm.reset();
+        });
+    </script>
+</body>
+</html>
